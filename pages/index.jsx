@@ -6,6 +6,7 @@ import { Header } from '../components/Header'
 import { LargeCard } from '../components/LargeCard'
 import { MediumCard } from '../components/MediumCard'
 import { SmallCard } from '../components/SmallCard'
+import { Footer } from '../components/Footer'
 
 const Home = ({exploreData, cardsData}) => {
   
@@ -55,8 +56,10 @@ const Home = ({exploreData, cardsData}) => {
           description='Wishlists curated by Airbnb.'
           buttonText = "Get Inspired"
         />
+    
       </main>
       
+      <Footer />
     </div>
   )
 }
